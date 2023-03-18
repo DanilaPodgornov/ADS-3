@@ -20,6 +20,7 @@ int cbinsearch(int *arr, int size, int value) {
         } else {
             cbinsearch(arr + middleIndex + 1, size - middleIndex - 1, value);
         }
-    } else
-    return 0;
+    } else {
+        return 0;
+    }
 }
